@@ -1,0 +1,43 @@
+; API => Permet d'utiliser des donnees déja existantes
+
+    ; Une API, ou Interface de Programmation Applicative, 
+    ; permet effectivement d'accéder à des données ou à des fonctionnalités déjà existantes, 
+    ; souvent mises à disposition par d'autres services ou plateformes.
+
+; Conception de mon application météo :
+
+;     Je vais d'abord définir ce que je veux que mon application puisse faire, 
+;     comme afficher la météo actuelle, les prévisions à venir, etc.
+;     Ensuite, je vais identifier les différents composants dont j'aurai besoin, 
+;     comme l'interface utilisateur pour afficher les données météo, 
+;     la logique métier pour interagir avec l'API, etc.
+
+; Choix d'une API météo gratuite :
+
+;     Je vais rechercher et choisir une API météo gratuite qui répond à mes besoins. 
+;     Par exemple, je pourrais explorer des options comme OpenWeatherMap ou WeatherAPI.
+;     Je vais m'assurer que l'API que je choisisse fournit les données météorologiques
+;     dont j'ai besoin, comme la température, les conditions météorologiques, etc.
+
+; Récupération de l'URL HTTPS de l'API :
+
+;     Après avoir sélectionné une API, je vais m'inscrire pour obtenir une clé d'API 
+;     si nécessaire, puis récupérer l'URL de l'API fournie par le fournisseur.
+;     Je m'assurerai que l'URL est sécurisée (HTTPS) pour garantir des communications sûres
+;     avec l'API.
+
+; Utilisation de JavaScript pour accéder à l'URL avec AJAX :
+
+;     Avec JavaScript, j'utiliserai la technologie AJAX (Asynchronous JavaScript and XML) 
+;     pour envoyer des requêtes HTTP à l'URL de l'API météo.
+;     J'utiliserai les méthodes AJAX pour récupérer les données météorologiques
+;     ( Va permettre de faire des requette Https la reponse dans un fichier 
+;     Json(format d'affichage de donnees simple)) 
+;     de l'API et je traiterai les réponses de manière asynchrone pour mettre à jour 
+;     l'interface utilisateur avec les données météo obtenues.
+
+; En utilisant une API météo, je pourrais exploiter les données déjà existantes
+;   fournies par des services météorologiques professionnels, 
+;   ce qui me permettrait de concentrer mes efforts sur le développement de fonctionnalités
+;   et une expérience utilisateur de qualité pour mon application météo
+
