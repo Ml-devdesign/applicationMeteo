@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Api Météo</title>
+    <script src="app.js"></script>
+        <title>Api Météo</title>
 </head>
 <body>
     <div class="container">
@@ -16,14 +17,21 @@
 
         <!-- Ville/Temperature -->
                 <div class="text-center">
-                    <span id="ville">XXXX</span>
+                    
 
                     <div id="temperature">
+                        <h4><span id="villes">XXXX</span> : </h4>
+                        
                         <span id="temperature_label">XX.X</span> °C
+                        <p id="date"></p>
                         <span id="temperature_icon">
                             <img id="temperature_icon_img" src="" alt="">
                         </span>
                     </div>
+
+                    <p>Temperature Maximum : <span id="temperature_label-max">XX.X</span> °C</p>
+                    <p>Temperature Minimum : <span id="temperature_label-min">XX.X</span> °C</p>
+
                 </div>
             </div>
         </div>
@@ -31,12 +39,12 @@
         <div class="warning row justify-content-center">
             <div class="colmd-8 text-center">
                 <!-- Change the Country -->
-                <div id="changer" class="mt-2 text-center p-3 btn btn-success">
+                <button  id="changer" class="mt-2 text-center p-3 btn btn-success">
                     Changer de Ville
                     <span id="changer_icon">
                         <img id="changer_icon_img" src="" alt="">
                     </span>
-                </div>
+                </button>
             </div>
         </div>
     </div>
