@@ -1,0 +1,26 @@
+{//meteo
+    "message": "success",
+    "data": {
+        "lat": 49.133333,
+        "lng": 6.166667,
+        "timezone": "Europe/Paris",
+        "country_code": "",
+        "time": 1714118400,
+        "apparentTemperature": 40,
+        "cloudCover": 0.84,
+        "dewPoint": 40.89,
+        "humidity": 74,
+        "pressure": 1006,
+        "precipIntensity": 0.01,
+        "temperature": 48,
+        "visibility": 10,
+        "windGust": 11.81,
+        "ozone": 433.61,
+        "uvIndex": 1.05,
+        "windSpeed": 5.07,
+        "windBearing": 188,
+        "icon": "rain",
+        "summary": "Expect some rain. Prepare for cold weather. Higher humidity levels. Expect a gentle breeze. Low UV levels.",
+        "updatedAt": "2024-04-26T08:00:00.000Z"
+    }
+}

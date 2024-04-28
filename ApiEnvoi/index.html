@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Récupération d'un Nom</title>
     <title>SW test</title>
-    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
 </head>
     
 <body>
     <div class="container">
-        <h1>API Récupération d'un Nom</h1>
-        <form action="index.php" method="post">
-            <input type="text" name="name" placeholder="Nom du personnage">
+        <h1>Envoyer des données grace a une API et gràce a AJAX</h1>
+        <form action="index.html" method="post">
+            <input type="text" name="name" placeholder="Nom du perso">
             <input type="submit" value="Rechercher">
         </form>
     </div>
-<script>
-    const P = new Pokedex.Pokedex({ cacheImages: true });
-</script>
-    <div id="app">
+
+    <!-- <div id="app">
         <img
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg"
-        alt="Pikachu"
+        src="https://unsplash.com/fr/photos/petales-de-fleurs-pourpres-et-blanches-DaYOcJohPUQ"
+        alt=""
         />
+    </div> -->
+    <div id="app">
+        <br>
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+        <style>
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
     </div>
     <div>
-        The above image is served (once cached) by the local <i>pokeapi-js-wrapper-sw.js</i> SW. Check it out in the Developer Console (F12) by looking at the Network Panel and also at the Application Panel.
+       
     </div>
         <script src="app.js"></script>
     </body>
